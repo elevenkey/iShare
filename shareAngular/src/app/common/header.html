@@ -1,0 +1,28 @@
+<header>
+    <div id="top" class="container">
+        <div class="row">
+            <!--<div class="col-md-12 logo hide">-->
+                <!--<div class="content-logo"><img src="assets/img/temp/logo.jpg" alt="" /></div>-->
+            <!--</div>-->
+            <nav class="col-md-12">
+                <div class="mini-menu"><i class="fa fa-bars"></i></div>
+                <ul class="menu" auto-active >
+                    <li class="cl-effect-11"><a data-hover="首页" href="#/">首页</a></li>
+                    <li class="cl-effect-11"><a data-hover="分享" href="#/share">分享</a></li>
+                    <li class="cl-effect-11"><a data-hover="心愿" href="#/wish">心愿</a></li>
+                    <li class="cl-effect-11"><a data-hover="捐赠" href="#/donation">捐赠</a></li>
+                    <li class="cl-effect-11"><a data-hover="关于" href="#/contact">关于</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<script>
+    // Mobile menu toggle
+    var mobile_nav = $(".mini-menu");
+    mobile_nav.click(function () {
+        $("#top").find(".menu").toggle(2000);
+    });
+</script>
+
